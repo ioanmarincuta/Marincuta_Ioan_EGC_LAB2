@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marincuta_Ioan_grupa3132a_lab2", "Marincuta_Ioan_grupa3132a_lab2.csproj", "{AF5E2A5F-6781-459D-8CAC-4F9614242D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laborator4", "..\laborator4\laborator4.csproj", "{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laborator4", "laborator4\laborator4.csproj", "{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
