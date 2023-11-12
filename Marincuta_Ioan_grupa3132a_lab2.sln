@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marincuta_Ioan_grupa3132a_lab2", "Marincuta_Ioan_grupa3132a_lab2.csproj", "{AF5E2A5F-6781-459D-8CAC-4F9614242D6F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laborator4_Marincuta", "G:\lab4EGC\laborator4_Marincuta\laborator4_Marincuta.csproj", "{ABC48541-B19B-4D63-BC4E-25A31C1F0337}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "laborator4", "..\laborator4\laborator4.csproj", "{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{AF5E2A5F-6781-459D-8CAC-4F9614242D6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF5E2A5F-6781-459D-8CAC-4F9614242D6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF5E2A5F-6781-459D-8CAC-4F9614242D6F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABC48541-B19B-4D63-BC4E-25A31C1F0337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABC48541-B19B-4D63-BC4E-25A31C1F0337}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABC48541-B19B-4D63-BC4E-25A31C1F0337}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABC48541-B19B-4D63-BC4E-25A31C1F0337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EF09F1-A5E1-4410-A4F2-85550B7FE2E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
