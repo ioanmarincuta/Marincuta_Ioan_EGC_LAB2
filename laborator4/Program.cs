@@ -55,9 +55,10 @@ public class Aplicatie3D : GameWindow
 
     private void CitesteCoordonateCubDinFisier(string numeFisier)
     {
-        if (File.Exists(numeFisier))
+        string caleFisier = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "fisieretext", numeFisier);
+        if (File.Exists(caleFisier))
         {
-            string[] linii = File.ReadAllLines(numeFisier);
+            string[] linii = File.ReadAllLines(caleFisier);
             coordonateCub = new Vector3[linii.Length];
 
             for (int i = 0; i < linii.Length; i++)
@@ -76,9 +77,10 @@ public class Aplicatie3D : GameWindow
 
     private void CitesteCuloriFețeCubDinFisier(string numeFisier)
     {
-        if (File.Exists(numeFisier))
+        string caleFisier = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "fisieretext", numeFisier);
+        if (File.Exists(caleFisier))
         {
-            string[] linii = File.ReadAllLines(numeFisier);
+            string[] linii = File.ReadAllLines(caleFisier);
             culoriFețeCub = new Color4[linii.Length];
 
             for (int i = 0; i < linii.Length; i++)
@@ -97,9 +99,10 @@ public class Aplicatie3D : GameWindow
 
     private void CitesteCoordonateTriunghiDinFisier(string numeFisier)
     {
-        if (File.Exists(numeFisier))
+        string caleFisier = Path.Combine(Directory.GetParent(Environment.CurrentDirectory).Parent.FullName, "fisieretext", numeFisier);
+        if (File.Exists(caleFisier))
         {
-            string[] linii = File.ReadAllLines(numeFisier);
+            string[] linii = File.ReadAllLines(caleFisier);
             coordonateTriunghi = new Vector3[linii.Length];
 
             for (int i = 0; i < linii.Length; i++)
